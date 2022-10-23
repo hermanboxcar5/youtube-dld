@@ -29,7 +29,7 @@
 
         $(document).ready(function () {
 
-            var url = location.href
+            var url = location.href.split('?')[1]
 
             var oThis = $(this);
             oThis.attr('disabled', true);
