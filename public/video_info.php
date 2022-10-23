@@ -4,7 +4,7 @@ require('../vendor/autoload.php');
 
 $url = isset($_GET['url']) ? $_GET['url'] : null;
 $url = 'https://youtube.com/watch?v=' . $url
-
+echo $url
 function send_json($data)
 {
     header('Content-Type: application/json');
